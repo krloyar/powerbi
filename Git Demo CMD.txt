@@ -1,0 +1,44 @@
+Open CMD:
+
+	dir
+	cd "folder name"
+	dir 
+	code .
+
+# Tells you who the git user is
+git config --global --list
+
+# Setting user details
+git config --global user.name "vivek powerbi"
+git config --global user.email "vivek@gmail.com"
+
+git config --global --list
+
+
+#Start working with git
+git init
+
+#Add file(s) to git's special area known as staging area
+git add .
+
+#Commit (Save) file
+git commit -m "bio day1"
+
+# mfgc
+git status
+
+#link local repo to GitHub repo
+git remote add origin https://github.com/krloyar/testpowerbi.git
+
+#Push Commited files on GitHub
+git push -u origin main
+
+# Command for Data analyst
+git clone 
+
+Task: Clone others GitHub Repository
+
+
+krloyar.github.io/powerbi/
+
+
